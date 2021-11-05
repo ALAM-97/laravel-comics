@@ -2,6 +2,8 @@
 
 @section('pageContent')
     <section>
-        <h2>CURRENT SERIES</h2>
+        <div class="wrapper">
+            <h2>CURRENT SERIES</h2>
+        </div>
     </section>
 @endsection
