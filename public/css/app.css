@@ -5,6 +5,7 @@
 .wrapper {
   width: 70%;
   margin: auto;
+  position: relative;
 }
 
 li {
@@ -75,4 +76,77 @@ a {
   background-position: center top;
   background-size: cover;
   height: 500px;
+}
+
+section {
+  position: relative;
+}
+section h2 {
+  display: inline-block;
+  padding: 0.625rem 1.5625rem;
+  background-color: #0282f9;
+  position: absolute;
+  top: -1.5625rem;
+  color: #fff;
+}
+section .dark-bg {
+  padding: 4.375rem 0;
+  background-color: #1c1c1c;
+}
+section .dark-bg ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+section .dark-bg ul .comic {
+  width: calc(16.6666666667% - 0.625rem);
+  padding: 1.25rem 1.25rem;
+  margin-bottom: 1.25rem;
+  text-align: left;
+  color: #fff;
+}
+section .dark-bg ul .comic img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  margin-bottom: 0.625rem;
+}
+section .dark-bg .bottom {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #0282f9;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 0.625rem 1.5625rem;
+}
+section .services {
+  background-color: #0282f9;
+  padding: 2.5rem 0;
+}
+section .services ul {
+  display: flex;
+  justify-content: space-around;
+}
+section .services ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+section .services ul li img {
+  width: 25%;
+  margin-right: 10px;
+}
+section .services ul li img.shop-locator {
+  width: 18%;
+}
+section .services ul li img.digital-comics {
+  width: 22%;
+}
+section .services ul li h4 {
+  color: #fff;
 }
