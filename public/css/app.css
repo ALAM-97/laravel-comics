@@ -73,5 +73,6 @@ a {
 .hero {
   background-image: url("../images/jumbotron.jpg");
   background-position: center top;
+  background-size: cover;
   height: 500px;
 }
